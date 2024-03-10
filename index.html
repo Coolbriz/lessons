@@ -1,0 +1,465 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>lesson_2</title>
+</head>
+<body>
+	<header>
+		<h1>lesson_2  </h1>
+		<p>
+			Lorem ipsum, dolor sit amet consectetur <span>adipisicing elit. Assumenda modi numquam, deserunt eligendi ad tempore </span>
+			reprehenderit esse velit perferendis praesentium minima accusamus, voluptate labore fuga adipisci! Dolores consequatur eaque soluta.
+		</p>
+		<p>
+			Lorem ipsum, dolor sit amet consectetur <span>adipisicing elit. Assumenda modi numquam, deserunt eligendi ad tempore </span>
+			reprehenderit esse velit perferendis praesentium minima accusamus, voluptate labore fuga adipisci! Dolores consequatur eaque soluta.
+		</p>
+	</header>
+	<!-- 
+		Сінтаксіс HTML
+		Все що відкрито, має бути закритим
+	 -->
+	 <!-- Коментар (Команд + слеш) -->
+	<!-- 
+		Нотатки
+		Код який зараз не потрібен
+	 -->
+	<!-- HTML тег -->
+	 <!-- Будова (анатлмія) HTML тег-->
+	  <!-- Тег з зачиняючим елементом -->
+	   <!-- Все що відкрито, має бути закритим -->
+	    <!-- 
+		   <назва_тегу>
+		    Наповнення тегу (інші тегі, контент)
+		   </назва_тегу>
+	     --> 
+	      <!-- Тег без зачиняючего елементу -->
+	       <!-- 
+				<назва_тегу>
+			  -->
+	       <!-- Тег з атрибутам -->
+			 <!-- 
+				<назва_тегу назва_атрібуту="значення атрибуту" назва_атрибуту_2="значення атрибуту">
+				  Наповнення тегу (інші тегі, контент)
+				</назва_тегу> 
+				або 
+				<назва_тегу назва_атрібуту="значення атрибуту" назва_атрибуту_2="значення атрибуту"> 
+			 -->
+
+			 <!-- Теги для будівництва (будівельні) -->
+			  <!-- Будівельні тегі ні як не змінюють контент  -->
+
+           <!-- HEADER будівельний тег для побудови верхньої частини сайту -->
+			  <header>
+				<!-- Наповнення тегу (інші тегі, контент) -->
+			  </header>
+
+			  <!-- FOOTER  будівельний тег для побудови нижньої частини сайту -->
+           <footer>
+				<!-- Наповнення тегу (інші тегі, контент) -->
+			  </footer>
+
+			  <!-- MAIN будівельний тег для побудови головної частини сайту  (мае бути один на сторинці)-->
+			  <main>
+				<!-- Наповнення тегу (інші тегі, контент) -->
+			  </main>
+              
+			  <!-- Стандартна конструкція сайту -->
+			  <header></header>
+			  <main></main>
+			  <footer></footer>
+
+			   <!-- 
+					DIV Будівельний тег без конкретного призначення 
+				-->
+				 
+			 <!-- Тегі для конттенту (контентні) -->
+			  <!-- Контентні тегі могут змінювати контент -->
+
+           <!-- H1-H6  Теги для заголовків -->
+           <h1>Заголовок №1</h1>  <!-- Лише один бо він головний -->
+			  <h2>Заголовок №2</h2>
+			  <h3>Заголовок №3</h3>
+			  <h4>Заголовок №4</h4>
+			  <h5>Заголовок №5</h5>
+			  <h6>Заголовок №6</h6>
+
+			  <!-- P Тег парагрофу (з зачиняючим елементом) -->
+			   <p>
+				  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus 
+				  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus 
+			   </p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia necessitatibus 
+					repudiandae enim consequatur repellendus incidunt expedita veritatis, harum eos 
+					quisquam.
+				</p>
+
+            <!-- MARK та SPAN виделення слов(ів) з зачин. елементом -->
+				  <p>
+					Lorem ipsum dolor <mark> sit amet consectetur adipisicing </mark> elit. Error ad 
+					magnam est tempore provident quibusdam enim amet nulla eligendi maiores
+					nemo qui iusto, facilis a in <span> alias temporibus voluptatem repellat!</span>
+              </p>
+
+				  <!-- BR Перериває рядок тексту (без зачиняющего тегу)  ТІЛЬКИ ДЛЯ ТЕКСТУ -->
+               <p>
+						Lorem ipsum, dolor sit amet consectetur <br>adipisicing elit. Nobis esse sint eius unde,
+						sed <mark >eum rem est ipsa alias! Veniam ex mollitia</mark> vero, ullam recusandae maiores 
+						molestias dicta corporis repellat.
+					</p>
+
+					<!-- UL+LI Маркований список (з зачиняючим елементом) -->
+
+					<ul>
+						<li>Пункт списку</li>
+						<li>Пункт списку</li>
+					</ul>
+
+					<!-- OL+LI Нумерований список (з зачиняючим елементом) -->
+               <ol>
+						<li>Пункт списку</li>
+						<li>Пункт списку</li>
+					</ol>
+
+					<!-- Вкладання списків -->
+					<ul>
+						<li>
+							Пункт списку
+							<ul>
+								<li>Підпункт списку</li>
+								<li>
+									Підпункт списку
+									<ol>
+										<li>ПідПідпункт списку</li>
+									</ol>
+								</li>
+								<li>Підпункт списку</li>
+							</ul>
+						</li>
+						<li>Пункт списку</li>
+					</ul>
+
+					<!-- IMG Вивід зображення   -->
+               <!-- 
+						Атрибути
+						src -  шлях до зображення (файлу)
+						alt -  альтернативний текст
+					 -->
+					<img src="img/honey.jpg" alt="зображення бджіл та сот"> 
+
+					<!-- A -  гіпертекстове посилання (з зачиняючим елементом) -->
+					<!--   <a href="адреса">Текст (анкор)</a>   -->
+
+					 <p>
+						Lorem ipsum <a href="https://google.com" title="На сайт Google">Google</a> dolor sit amet.
+					</p>
+
+					 <!--  
+						Атрибут target встановлюе де саме має відкритись адреса
+					 -->
+					 <p>
+					 	Lorem ipsum dolor sit amet, consectetur <a href="http://google.com" title="На сайт Google" target="_blank">Google</a>
+						adipisicing elit. Optio id suscipit
+						praesentium voluptates unde laudantium?
+					 </p>
+
+					 <!-- 
+						TITLE підказка
+					 -->
+					 <p title="Це текст риба" class="text">
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore magnam in perspiciatis veniam consequatur quo iusto repudiandae architecto omnis nemo.
+					 </p>
+					 
+					 <!-- Часті атрибути -->
+					
+					 <!-- 
+						CLASS додає клас (класи)
+						ім'я класів пишемо латиницею (краще англійскі слова),
+						у нижньому регістрі пробіл замінюемо на дефіс.
+
+						До одного тегу ми можемо додавати безліч класів 
+						(через пробіл) в одному атрібуті class
+					 -->
+					 <!-- DIV з классом block -->
+					 <div class="block"></div>
+					 <!-- P з класом text -->
+					 <p class="text"></p>
+					 <!-- DIV з класом block та red -->
+					 <div class="block red"></div>
+					 
+					 <!-- 
+						ID це унікальний ідентифікатор
+						Значення ID мае бути унікальним для html сторінки
+					 -->
+
+					 <div class="text">
+						<p>
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum in modi minima, <mark>magnam dolores autem vel nisi maxime </mark>quae commodi asperiores atque ab consequuntur. Quo beatae tempore aut esse accusantium.
+						</p>
+						<p title="Це текст риба">
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum in modi minima, magnam dolores autem vel nisi maxime quae commodi asperiores atque ab consequuntur. Quo beatae tempore aut <mark>esse accusantium.</mark>
+						</p>
+						<p id="some-uniq-id">
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum in modi <mark>minima, magnam dolores autem </mark>vel nisi maxime quae commodi asperiores atque ab consequuntur. Quo beatae tempore aut esse accusantium.
+						</p>
+					 </div>
+
+					 <!-- БЛОЧНІ, РЯДКОВІ та БЛОЧНО-РЯДКОВІ тегі  -->
+					
+					 <!-- БЛОЧНІ тегі -->
+					 <!-- Усі будівельни (header, main, footer, nav, aside, form, div та інші) -->
+					 <!-- Та контентні: h1-h6, p, ul, ol, li -->
+					 <!-- 
+						Ширіна БЛОЧНОГО тегу завжди займає ВСЮ ширіну батьківського елементу.
+						Висота формується контентом всередені.
+						БЛОЧНИЙ тег завжди починяється з нового рядка
+					  -->
+					 
+
+
+					 <!-- РЯДКОВІ тегі -->
+					 <!-- span, mark, a, br -->
+					 <!-- 
+						Ширина РЯДКОВОГО тегу займає ширину контенту всередені.
+						Висота формується контентом всередені.
+						РЯДКОВИЙ тег намагаеться розміститись в рядок з іншими рядковими тегами або текстом
+					  -->
+
+
+					 <!-- БЛОЧНО-РЯДКОВІ -->
+					 <!-- img -->
+					 <!-- 
+						Ширина БЛОЧНО-РЯДКОВОГО тегу займає ширину контенту всередені.
+						Висота формується контентом всередені.
+						БЛОЧНО-РЯДКОВИЙ тег намагаеться розміститись в рядок з іншими рядковими тегами або текстом
+					  -->
+
+
+					  <!-- HTML ВКЛАДЕНІСТЬ та конструкції -->
+					  <!-- 
+						В більшість рядкових тегів не можна вкладати блочні тегі
+					   -->
+					 <!-- Зазвичай вкладееність виконуеться так: -->
+					 <!-- 
+						БУДІВЕЛЬНИ тегі -> КОНТЕНТНІ тегі
+					  -->
+
+					<!-- ВИКЛЮЧЕННЯ -->
+					<!-- В тег А дозволяється вкладати будівельни тегі, якщо цього ввимагає макет дізайну. -->
+					  
+					 <a href="">
+						 <div>
+							<p>
+							 <span></span>
+							</p>
+						</div>
+					 </a> 
+				
+					
+				<!-- НЕ ВІРНО -->
+					<!--
+					  <span>
+					      <header></header>
+						   <div></div>
+						   <footer></footer>
+						   <h1></h1>
+					      <p></p>
+					 </span>
+				-->
+
+				<!-- НЕ ВІРНО в середену("UL","OL") вкладати щось окрім ("LI") -->
+					<!--
+					    <ul>
+					      <div></div>
+					    </ul>
+				   -->
+					
+					<!-- ВІРНО вкладати в середену ("LI") -->
+					
+						<ul>
+						 <li>
+							<div></div>
+						 </li>
+						</ul>
+					
+					 <!-- ВІРНО -->
+					 
+					 <div>
+						 <div></div>
+					 </div> 
+
+					 <header>
+						<div>
+							<a href=""></a>
+							<ul>
+								<li></li>
+							</ul>
+							<div></div>
+						</div>
+					 </header>
+
+					 <main>
+						<div></div>
+						 <a href=""></a>
+						  <p></p>
+						   <ul>
+							  <li></li>
+						   </ul>
+						<div>
+						  <a href=""></a>
+						  <p></p>
+						</div>
+					 </main>
+
+					 <footer>
+						<div></div>
+						<a href=""></a>
+						<ul></ul>
+					 </footer>
+
+					 
+					 <!-- РТВНІ вкладеності -->
+					
+					 <header>      <!-- Батьківським тегом для тегу "DIV" -->
+
+						   <!-- 1-ий (безпосередній) рівень вкладенності відносно тегу "HEADER"-->
+						<div >
+							  <!-- 2-ой рівень вкладеності відносно тегу "HEADER" -->
+							  <!-- 1-ий (безпосередній) рівень вкладенності відносно тегу "DIV" -->
+							<div></div>  <!-- Дочерним тегом для "HEADER" -->
+						</div>  <!-- Дочерним тегом для "HEADER" -->
+						
+                      <!-- 1-ий (безпосередній) рівень вкладенності відносно тегу "HEADER"-->
+						<div>
+							<!-- 2-ой рівень вкладеності відносно тегу "HEADER" -->
+							<!-- 1-ий (безпосередній) рівень вкладенності відносно тегу "DIV" -->
+							<p> 
+								<!-- 3-ой рівень вкладеності відносно тегу "HEADER" -->
+								<!-- 2-ой рівень вкладеності відносно тегу "DIV" -->
+								<!-- 1-ий (безпосередній) рівень вкладенності відносно тегу "P" -->
+								<a href=""></a>
+							</p>
+						</div>
+					 </header>
+
+
+					 <!-- Звичайна конструкція ШАПКИ ("HEADER") сайту -->
+					 
+					 <header>
+						<div>
+							<a href="#"></a>
+							<ul>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+							</ul>
+							<div></div>
+						</div>
+					 </header>
+
+					 
+					<!-- Звичайна конструкція ПІДВАЛУ ("FOOTER")сайту -->
+
+					<footer>
+						<div>
+							<a href="#"></a>
+							<ul>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+							</ul>
+							<ul>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+							</ul>
+							<div></div>
+						</div>
+					</footer>
+
+
+					<!-- Звичайна конструкція ТІЛА ("MAIN") сайту -->
+
+					<main>
+						<div>
+							<h1></h1>
+							<p></p>
+							<p>
+							  <a href=""></a>
+							  <span></span>
+							  <mark></mark>
+							   <br>
+							</p>
+							<p></p>
+							<p></p>
+							<h2></h2>
+							<p></p>
+							<ul>
+							 <li></li>
+							  <li></li>
+							 <li></li>
+							</ul>
+							<h2></h2>
+							<p></p>
+							<ol>
+							 <li></li>
+							</ol>
+							<h3></h3>
+							<p></p>
+						</div>
+						<div></div>
+						<div></div>
+						<div></div>
+					</main>
+
+					<!-- Приклад вкладеності в тег "А" -->
+					<!-- Обидва посилання ведут на одну і ту ж саму сторінку -->
+
+					<div>
+						<div>
+							<a href="contacts.html">
+								<img src="img/honey.jpg" alt="Honey">
+							</a>
+						</div>
+						<div>
+							<a href="contacts.html">Text</a>
+						</div>
+					</div>
+
+					<!-- Оптимізованний варіант -->
+					
+					<a href="">
+						<div>
+							<img src="contacts.html" alt="Honey">
+						</div>
+						<div>
+							Text
+						</div>
+					</a>
+
+				<!-- ЗАБОРОНЯЄТЬСЯ -->
+
+				<!-- Вкладати "А" в "А" -->
+					  <!-- 
+						  <a href="#">
+						    <a href="#"></a>
+					     </a> 
+				     -->
+
+				<!-- Залишати порожнім тег "P"  -->
+
+				<!-- Залишати порожнім атрібути "SRC"  "HREF"  "ALT"  -->
+
+				   <img src="" alt="">
+
+					<a href=""></a>
+				   
+					
+				   
+
+</body>
+</html>
