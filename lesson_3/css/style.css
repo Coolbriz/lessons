@@ -1,0 +1,46 @@
+@import url("reset.css");
+h1{
+	color: firebrick;
+}
+nav ul{
+	color: dodgerblue;
+}
+.title h2{
+	color: firebrick;
+}
+.text p{
+	color: olive;
+}
+.text a{
+	color: blue;
+}
+.histori p{
+	color: chocolate;
+}
+.histori h2, h4{
+	color: rgb(97, 81, 11);
+}
+.histori span{
+	color: darkblue;
+}
+.city h2{
+	color: dodgerblue;
+}
+.city p{
+	color: chocolate;
+}
+.city a{
+	color: blue;
+}
+.city span{
+	color: darkblue;
+}
+.attractions h2{
+	color: coral;
+}
+.attractions p{
+	color: brown;
+}
+.attractions a{
+	color: dodgerblue;
+}
